@@ -53,6 +53,7 @@ public class MatrixMult {
 		 return c;
 	}
 	
+	
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -99,5 +100,7 @@ public class MatrixMult {
 		mult(aa, bb);
 		//closes scanner as it is no longer needed
 		one.close();
+		
+		System.out.println("the letter h");
 	}
 }
